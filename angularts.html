@@ -1,0 +1,14 @@
+
+class temp{
+	public fahr = (value:number)=>{
+		let f=(value*9/5)+32;
+		return f;
+	}
+	public celsius = (value:number)=>{
+	let c = (value-32)*5/9;
+	return c;
+	}
+}
+
+let cel =new (temp);
+console.log("fahrenheit",cel.fahr(6));
